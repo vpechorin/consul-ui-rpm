@@ -1,0 +1,9 @@
+{
+	"data_dir": "/var/lib/consul",
+	"ui_dir": "/usr/share/consul/ui/dist",
+	"client_addr": "0.0.0.0",
+	"ports": {
+		"dns": 53
+	},
+	"recursor": "8.8.8.8"
+}
