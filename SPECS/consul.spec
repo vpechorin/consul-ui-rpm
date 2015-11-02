@@ -1,13 +1,13 @@
 Name:           consul
-Version:        0.4.1
+Version:        0.5.2
 Release:        1.ui%{?dist}
 Summary:        Consul is a tool for service discovery and configuration. Consul is distributed, highly available, and extremely scalable.
 
 Group:          System Environment/Daemons
 License:        MPLv2.0
 URL:            http://www.consul.io
-Source0:        https://dl.bintray.com/mitchellh/consul/%{version}_linux_amd64.zip
-Source1:        https://dl.bintray.com/mitchellh/consul/%{version}_web_ui.zip
+Source0:        https://releases.hashicorp.com/consul/%{version}/consul_%{version}_linux_amd64.zip
+Source1:        https://releases.hashicorp.com/consul/%{version}/consul_%{version}_web_ui.zip
 Source2:        %{name}.sysconfig
 Source3:        %{name}.service
 Source4:        %{name}.json
